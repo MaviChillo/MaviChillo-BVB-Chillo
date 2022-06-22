@@ -1,0 +1,993 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+
+/*font-family: 'Cinzel', serif;
+font-family: 'Cinzel Decorative', cursive;
+
+background-color: #191919;
+*/
+
+*{
+font-family: 'Cinzel', serif;
+margin: 0;
+padding: 0;
+}
+
+
+/* fuente en el cuerpo */
+
+body{
+	color: #FFFFFF;
+	font-family: 'Cinzel', serif;
+	background-image: url(../img/bg/greybgd.jpg);
+	background-attachment: fixed;
+}
+
+h1,h2,h3{
+	font-family: 'Cinzel Decorative', cursive;
+	margin: 30px;
+}
+
+
+
+
+/* botonera empieza */
+
+.encabezado__img{
+	width: 50%;
+}
+
+nav{
+	/*background-color: #000000;*/
+	background: linear-gradient(0deg, rgba(195,24,24,1) 3%, rgba(0,0,0,1) 35%);
+	padding: 10px;
+	/*border-bottom: solid darkred;*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	/*justify-content: space-between;
+	align-items: center;*/
+	opacity: 75%;
+}
+
+
+
+nav ul{
+	position: sticky;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul li a{
+	color: #FFFFFF;
+	text-decoration: none;
+	position: relative;
+	animation-name: textAlpha;
+	animation-duration: 0.5s;
+}
+
+@keyframes textAlpha{
+	from{opacity: 0}
+	to{opacity: 1}
+}
+
+nav ul li a:hover{
+	color: darkred;
+	font-weight: 1000;
+}
+
+nav ul li{
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 1px 50px;
+
+}
+
+
+
+/* termina botonera */
+
+
+
+.home{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, auto);
+	grid-template-areas: 
+	"nav nav"
+	"header header"
+	"main main"
+	"footer footer"
+}
+
+.nav{
+	grid-area: nav;
+}
+
+.header{
+	grid-area: header;
+}
+
+.main{
+	grid-area: main;
+}
+
+.footer{
+	grid-area: footer;
+}
+
+section{
+	margin: 30px;
+}
+
+
+p{
+	margin: 30px;
+}
+
+.ul1{
+	margin: auto 50px ;
+}
+
+
+ol{
+	margin: auto 50px;
+
+}
+
+
+/* foto heroe */
+.header__img--fluid{
+	width: 100%;
+}
+
+header img{
+	width: 100%;
+}
+
+
+
+/* video */
+
+section h3{
+	text-align: top;
+	padding: 5px 5px;
+	margin: auto 30px;
+}
+
+.video{
+	/*width: 30px;*/
+	display: grid;
+	grid-template-columns: 2;
+	grid-template-rows: 1;
+	grid-template-areas: "h3video ivideo" ;
+}
+
+
+
+
+/* figures y grid*/
+
+.merch1{
+	height: 100vh;
+	width: 100vw;
+	display: grid;
+	width: 99%;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, auto);
+	grid-template-areas: 
+	"nav1 nav1"
+	"header1 header1"
+	"main main"
+	"footer footer";
+}
+
+.section{
+	display: flex;
+}
+
+.header1{
+	grid-area: header1;
+}
+
+.main{
+	grid-area: main;
+}
+
+.footer{
+	grid-area: footer;
+}
+
+.shirts{
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-flow: row wrap;
+	align-items: center;
+	width: 97%;
+	text-align: center;
+}
+
+.hoodies{
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-flow: row wrap;
+	width: 97%;
+	align-items: center;
+	text-align: center;
+}
+
+.vinilos-y-cds{
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-flow: row wrap;
+	width: 97%;
+	align-items: center;
+	text-align: center;
+}	
+
+.accesorios{
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-flow: row wrap;
+	width: 97%;
+	align-items: center;
+	text-align: center;
+}
+
+
+
+
+section figure img{
+	height: 250px;
+	width: 250px;
+}
+
+section figure:hover{
+	transform: scale(1.17);
+	color: darkred;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+/*section figure figcaption:hover{
+	color: darkred;
+	font-weight: 600;
+}*/
+
+
+
+
+
+
+/*width y flex-grow*/
+
+.w-1{
+	width: 1%;
+}
+
+.w-25{
+	width: 25%;
+}
+
+.w-100{
+	width: 100%;
+}
+
+.flex-grow1{
+	flex-grow: 1;
+}
+
+.flex-grow2{
+	flex-grow: 1;
+}
+
+.flex-grow3{
+	flex-grow: 1;
+}
+
+.flex-grow4{
+	flex-grow: 1;
+}
+
+
+
+
+
+
+/* TABLE */
+
+.table{
+	background-color: black;
+}
+
+table{
+	margin: 10px auto;
+	padding: 10px;
+	border: solid darkred 2px;
+	width: 80%;
+	height: auto;
+}
+
+td{
+	padding: 20px;
+	text-align: center;
+}
+
+
+td input{
+	color: darkred;
+	font-style: bold;
+	font-family: 'Cinzel Decorative', bold;
+	font-size: 1rem;
+}
+
+td input:hover{
+	color: darkred;
+	font-weight: 100;
+	cursor: pointer;
+}
+
+
+.upShows__h1--center{
+	text-align: center;
+}
+
+.comeLive__p--center{
+	text-align: center;
+}
+
+.moreShows__h2--center{
+	text-align: center;
+}
+
+
+
+
+
+
+/* formularios*/
+
+.subscribe__section--center{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	width: 95%;
+}
+
+.form{
+	flex-direction: column;
+}
+
+.submit{
+	color: darkred;
+	font-style: bold;
+	font-family: 'Cinzel Decorative', bold;
+	font-size: 1rem;
+}
+
+
+
+
+/* footer */
+
+
+.footer{
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	grid-area: footer;
+}
+
+/*footer a{
+	flex-direction: row;
+}*/
+
+
+/*.footer{
+	display: grid;
+	width: 99%;
+}
+
+.template-areas{
+	grid-template-columns: 1;
+	grid-template-rows: 2;
+	grid-template-areas: 
+	"footlogo"
+	"spotify youtube instagram twitter";
+}*/
+
+
+
+
+footer img{
+	max-height: 200px;
+	max-width: 200px;
+	
+
+}
+
+/*footer a{
+	margin: 20px auto;
+
+}*/
+
+footer a img{
+	max-height: 30px;
+
+	background-color: #000000;
+	 
+}
+
+
+footer{
+	background-color: #000000;
+	
+
+}
+
+/*.footer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;*/
+	/*flex-flow: column wrap;
+}
+
+.footer img{
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.footer a{
+	flex-direction: row;
+	justify-content: center;
+}
+
+*/
+
+
+
+
+
+
+section iframe{
+	max-width: 700;
+	max-height: 500;
+}
+
+
+
+/*.logoBand__img{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}*/
+
+
+
+@media (max-width: 320px){
+
+	nav{
+		display: flex;
+		flex-direction: column;
+	}
+
+	nav ul li{
+		list-style: none;
+		display: flex;
+		justify-content: space-evenly;
+		margin: 1px 10px;
+	}
+
+	.home{
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, auto);
+		grid-template-areas: 
+		"nav"
+		"header"
+		"main"
+		"footer"
+	}
+
+	.video{
+		display: grid;
+		grid-template-columns: 1;
+		grid-template-rows: 2;
+		grid-template-areas: 
+		"h3video" 
+		"ivideo";
+	}
+
+	.header1{
+		width: 160%;
+		margin-top: 55px;
+	}
+
+
+	.merch1{
+		grid-template-columns: 1;
+		grid-template-rows: 4;
+		grid-template-areas: 
+		"nav1"
+		"header1"
+		"main"
+		"footer";
+	}
+
+
+	figure{
+		display: flex;
+		flex-direction: column;
+	}
+
+	figcaption{
+		width: 67vw;
+		margin-top: 20px;
+	}
+
+
+	.shirts{
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		width: 97%;
+		text-align: center;
+	}
+
+	.hoodies{
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 97%;
+		align-items: center;
+		text-align: center;
+	}
+
+	.vinilos-y-cds{
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 97%;
+		align-items: center;
+		text-align: center;
+	}	
+
+	.accesorios{
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 97%;
+		align-items: center;
+		text-align: center;
+	}
+}
+
+
+@media (max-width: 480px){
+
+	nav{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.nav1 ul li{
+		margin: 1px 10px;
+	}
+
+	nav ul li{
+		list-style: none;
+		display: flex;
+		justify-content: space-evenly;
+		margin: 1px 10px;
+	}
+
+
+	.home{
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, auto);
+		grid-template-areas: 
+		"nav"
+		"header"
+		"main"
+		"footer"
+	}
+
+	.video{
+		display: grid;
+		grid-template-columns: 1;
+		grid-template-rows: 2;
+		grid-template-areas: 
+		"h3video" 
+		"ivideo";
+	}
+
+	.header1{
+		width: 160%;
+		margin-top: 55px;
+	}
+
+	.merch1{
+		grid-template-columns: 1;
+		grid-template-rows: 4;
+		grid-template-areas: 
+		"nav1"
+		"header1"
+		"main"
+		"footer";
+	}
+
+
+	figure{
+		display: flex;
+		flex-direction: column;
+	}
+
+	figcaption{
+		width: 50vw;
+		margin-top: 20px;
+	}
+
+
+	.shirts{
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		width: 60%;
+		text-align: center;
+	}
+
+	.hoodies{
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 60%;
+		align-items: center;
+		text-align: center;
+	}
+
+	.vinilos-y-cds{
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 60%;
+		align-items: center;
+		text-align: center;
+	}	
+
+	.accesorios{
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 60%;
+		align-items: center;
+		text-align: center;
+	}
+}
+
+
+@media (max-width: 600px){
+	
+	nav{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.nav1 ul li{
+		margin: 1px 1px;
+		padding: 1px 25px;
+	}
+
+	nav ul li{
+		list-style: none;
+		display: flex;
+		justify-content: space-evenly;
+		margin: 1px 10px;
+	}
+
+	.home{
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, auto);
+		grid-template-areas: 
+		"nav"
+		"header"
+		"main"
+		"footer"
+	}
+
+	.video{
+		display: grid;
+		grid-template-columns: 1;
+		grid-template-rows: 2;
+		grid-template-areas: 
+		"h3video" 
+		"ivideo";
+	}
+
+	.header1{
+		width: 175%;
+		margin-top: 55px;
+	}
+
+	.merch1{
+		grid-template-columns: 1;
+		grid-template-rows: 4;
+		grid-template-areas: 
+		"nav1"
+		"header1"
+		"main"
+		"footer";
+	}
+
+	/*.merch1 footer{
+		width: 100vw;
+	}*/
+
+
+	figure{
+		display: flex;
+		flex-direction: column;
+	}
+
+	figcaption{
+		width: 50vw;
+		margin-top: 20px;
+	}
+
+	figure p{
+		margin-left: 100px;
+	}
+
+
+	.shirts{
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		width: 60%;
+		text-align: center;
+	}
+
+	.hoodies{
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 60%;
+		align-items: center;
+		text-align: center;
+	}
+
+	.vinilos-y-cds{
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 60%;
+		align-items: center;
+		text-align: center;
+	}	
+
+	.accesorios{
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 60%;
+		align-items: center;
+		text-align: center;
+	}
+
+
+}
+
+
+@media (max-width: 768px){
+	
+	nav{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.nav1 ul li{
+		margin: 1px 20px;
+		padding: 1px 20px;
+	}
+
+	nav ul li{
+		list-style: none;
+		display: flex;
+		justify-content: space-evenly;
+		margin: 1px 10px;
+	}
+
+	.home{
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, auto);
+		grid-template-areas: 
+		"nav"
+		"header"
+		"main"
+		"footer"
+	}
+
+	.video{
+		display: grid;
+		grid-template-columns: 1;
+		grid-template-rows: 2;
+		grid-template-areas: 
+		"h3video" 
+		"ivideo";
+		justify-content: center;
+	}
+
+
+	.header1{
+		width: 210%;
+		margin-top: 55px;
+	}
+
+	.merch1{
+		grid-template-columns: 1;
+		grid-template-rows: 4;
+		grid-template-areas: 
+		"nav1"
+		"header1"
+		"main"
+		"footer";
+	}
+
+	/*.merch1 footer{
+		width: 100vw;
+	}*/
+
+
+	figure{
+		display: flex;
+		flex-direction: column;
+	}
+
+	figcaption{
+		width: 30vw;
+		margin-top: 20px;
+	}
+
+	figure p{
+		margin-left: 100px;
+	}
+
+
+	.shirts{
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		width: 60%;
+		text-align: center;
+	}
+
+	.hoodies{
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 60%;
+		align-items: center;
+		text-align: center;
+	}
+
+	.vinilos-y-cds{
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 60%;
+		align-items: center;
+		text-align: center;
+	}	
+
+	.accesorios{
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 60%;
+		align-items: center;
+		text-align: center;
+	}
+}
+
+
+
+@media (max-width: 1024px){
+
+	
+	nav{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.nav1 ul li{
+		margin: 1px 20px;
+		padding: 1px 20px;
+	}
+
+	nav ul li{
+		list-style: none;
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.home{
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, auto);
+		grid-template-areas: 
+		"nav"
+		"header"
+		"main"
+		"footer"
+	}
+
+	.video{
+		display: grid;
+		grid-template-columns: 1;
+		grid-template-rows: 2;
+		grid-template-areas: 
+		"h3video" 
+		"ivideo";
+		justify-content: center;
+	}
+
+	.header1{
+		/*width: 210%;*/
+		margin-top: 80px;
+	}
+
+	.merch1{
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: 4;
+		grid-template-areas: 
+		"nav1 nav1"
+		"header1 header1"
+		"main main"
+		"footer footer";
+	}
+
+
+
+	figcaption{
+		width: 21vw;
+		margin-top: 20px;
+	}
+
+	/*figure p{
+		margin-left: 10px;
+	}*/
+
+
+	.shirts{
+		align-items: center;
+		text-align: center;
+	}
+
+	.hoodies{
+		align-items: center;
+		text-align: center;
+	}
+
+	.vinilos-y-cds{
+		align-items: center;
+		text-align: center;
+	}	
+
+	.accesorios{
+		align-items: center;
+		text-align: center;
+	}
+
+}
+
+
+@media (max-width: 1200px){
+
+
+	nav ul li{
+		list-style: none;
+		display: flex;
+		justify-content: space-evenly;
+		margin: 1px 30px;
+	}
+
+	.encabezado__img{
+		width: 50%;
+	}
+
+}
