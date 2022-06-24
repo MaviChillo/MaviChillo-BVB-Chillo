@@ -241,7 +241,9 @@ section h3{
 }
 
 
-
+.figure{
+	color: white;
+}
 
 section figure img{
 	height: 250px;
