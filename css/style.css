@@ -550,6 +550,10 @@ footer{
 	}*/
 
 	.navbar-brand{
+		width: 200%;
+	}
+
+	.encabezado__img{
 		width: 200px;
 	}
 
@@ -589,9 +593,9 @@ footer{
 		"ivideo";
 	}
 
-	.header1{
-		width: 160%;
-		margin-top: 55px;
+	#header1{
+		width: 120%;
+		margin-top: 0;
 	}
 
 
@@ -606,21 +610,30 @@ footer{
 	}
 
 
-	figure{
+	.section figure{
 		display: flex;
 		flex-direction: column;
+		margin-left: 20px;
 	}
 
-	figcaption{
+	.section figure img{
+		width: 250%;
+	}
+
+
+	figure figcaption{
 		width: 67vw;
 		margin-top: 20px;
+	}
+
+	.price{
+		text-align: left;
+		margin-left: 85px;
 	}
 
 
 	.shirts{
 		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
 		width: 97%;
 		text-align: center;
 	}
