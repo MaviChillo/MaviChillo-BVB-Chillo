@@ -903,21 +903,25 @@ footer{
 
 @media (max-width: 768px){
 	
-	nav{
+	/*nav{
 		display: flex;
 		flex-direction: column;
-	}
+	}*/
 
-	.nav1 ul li{
-		margin: 1px 20px;
-		padding: 1px 20px;
-	}
+	/*.nav1 ul li{
+		margin: 1px 1px;
+		padding: 1px 25px;
+	}*/
 
-	nav ul li{
+	/*nav ul li{
 		list-style: none;
 		display: flex;
 		justify-content: space-evenly;
 		margin: 1px 10px;
+	}*/
+
+	.navbar-brand{
+		width: 350px;
 	}
 
 	.home{
@@ -928,6 +932,22 @@ footer{
 		"header"
 		"main"
 		"footer"
+	}
+
+	.table{
+		font-size: 1rem;
+		width: 100%;
+	}
+
+	.input-group h3{
+		text-align: center;
+	}
+
+
+	#subs{
+		padding: 0;
+		margin: 0;
+		width: 2000px;
 	}
 
 	.video{
