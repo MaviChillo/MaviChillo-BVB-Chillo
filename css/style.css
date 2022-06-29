@@ -804,7 +804,11 @@ footer{
 	}*/
 
 	.navbar-brand{
-		width: 350px;
+		width: 200%;
+	}
+
+	.encabezado__img{
+		width: 200px;
 	}
 
 	.home{
@@ -843,9 +847,9 @@ footer{
 		"ivideo";
 	}
 
-	.header1{
-		width: 175%;
-		margin-top: 55px;
+	#header1{
+		width: 100%;
+		margin-top: 0;
 	}
 
 	.merch1{
@@ -863,50 +867,49 @@ footer{
 	}*/
 
 
-	figure{
+	.section figure{
 		display: flex;
 		flex-direction: column;
+		margin-left: 20px;
 	}
 
-	figcaption{
-		width: 50vw;
+	.section figure img{
+		width: 250%;
+	}
+
+
+	figure figcaption{
+		width: 67vw;
 		margin-top: 20px;
 	}
 
-	figure p{
-		margin-left: 100px;
+	.price{
+		text-align: left;
+		margin-left: 180px;
 	}
 
 
 	.shirts{
 		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
 		width: 60%;
 		text-align: center;
 	}
 
 	.hoodies{
 		flex-direction: column;
-		justify-content: flex-start;
 		width: 60%;
-		align-items: center;
 		text-align: center;
 	}
 
 	.vinilos-y-cds{
 		flex-direction: column;
-		justify-content: flex-start;
 		width: 60%;
-		align-items: center;
 		text-align: center;
 	}	
 
 	.accesorios{
 		flex-direction: column;
-		justify-content: flex-start;
 		width: 60%;
-		align-items: center;
 		text-align: center;
 	}
 
