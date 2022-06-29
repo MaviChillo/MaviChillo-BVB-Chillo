@@ -640,25 +640,19 @@ footer{
 
 	.hoodies{
 		flex-direction: column;
-		justify-content: flex-start;
 		width: 97%;
-		align-items: center;
 		text-align: center;
 	}
 
 	.vinilos-y-cds{
 		flex-direction: column;
-		justify-content: flex-start;
 		width: 97%;
-		align-items: center;
 		text-align: center;
 	}	
 
 	.accesorios{
 		flex-direction: column;
-		justify-content: flex-start;
 		width: 97%;
-		align-items: center;
 		text-align: center;
 	}
 }
@@ -683,7 +677,11 @@ footer{
 	}*/
 
 	.navbar-brand{
-		width: 300px;
+		width: 200%;
+	}
+
+	.encabezado__img{
+		width: 200px;
 	}
 
 
@@ -723,9 +721,9 @@ footer{
 		"ivideo";
 	}
 
-	.header1{
-		width: 160%;
-		margin-top: 55px;
+	#header1{
+		width: 115%;
+		margin-top: 0;
 	}
 
 	.merch1{
@@ -738,47 +736,49 @@ footer{
 		"footer";
 	}
 
-
-	figure{
+	.section figure{
 		display: flex;
 		flex-direction: column;
+		margin-left: 20px;
 	}
 
-	figcaption{
-		width: 50vw;
+	.section figure img{
+		width: 250%;
+	}
+
+
+	figure figcaption{
+		width: 67vw;
 		margin-top: 20px;
+	}
+
+	.price{
+		text-align: left;
+		margin-left: 140px;
 	}
 
 
 	.shirts{
 		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
 		width: 60%;
 		text-align: center;
 	}
 
 	.hoodies{
 		flex-direction: column;
-		justify-content: flex-start;
 		width: 60%;
-		align-items: center;
 		text-align: center;
 	}
 
 	.vinilos-y-cds{
 		flex-direction: column;
-		justify-content: flex-start;
 		width: 60%;
-		align-items: center;
 		text-align: center;
 	}	
 
 	.accesorios{
 		flex-direction: column;
-		justify-content: flex-start;
 		width: 60%;
-		align-items: center;
 		text-align: center;
 	}
 }
