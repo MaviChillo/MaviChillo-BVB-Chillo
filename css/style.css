@@ -937,7 +937,11 @@ footer{
 	}*/
 
 	.navbar-brand{
-		width: 350px;
+		width: 200%;
+	}
+
+	.encabezado__img{
+		width: 200px;
 	}
 
 	.home{
@@ -977,9 +981,9 @@ footer{
 	}
 
 
-	.header1{
-		width: 210%;
-		margin-top: 55px;
+	#header1{
+		width: 100%;
+		margin-top: 0;
 	}
 
 	.merch1{
@@ -997,51 +1001,64 @@ footer{
 	}*/
 
 
-	figure{
+
+	.section figure{
 		display: flex;
-		flex-direction: column;
+		flex-wrap: wrap;
+		margin-left: 20px;
+		width: 40%;
 	}
 
-	figcaption{
-		width: 30vw;
+	.section figure img{
+		width: 100%;
+	}
+
+
+	figure figcaption{
+		width: 67vw;
 		margin-top: 20px;
 	}
 
-	figure p{
-		margin-left: 100px;
+	.price{
+		text-align: left;
+		margin-left: 140px;
 	}
 
 
 	.shirts{
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
-		width: 60%;
+		flex-wrap: wrap;
+		width: 90% ;
 		text-align: center;
+		justify-content: space-between;
+		align-items: center;
+		align-content: center;
 	}
 
 	.hoodies{
-		flex-direction: column;
-		justify-content: flex-start;
-		width: 60%;
-		align-items: center;
+		flex-wrap: wrap;
+		width: 90% ;
 		text-align: center;
+		justify-content: space-between;
+		align-items: center;
+		align-content: center;
 	}
 
 	.vinilos-y-cds{
-		flex-direction: column;
-		justify-content: flex-start;
-		width: 60%;
-		align-items: center;
+		flex-wrap: wrap;
+		width: 90% ;
 		text-align: center;
+		justify-content: space-between;
+		align-items: center;
+		align-content: center;
 	}	
 
 	.accesorios{
-		flex-direction: column;
-		justify-content: flex-start;
-		width: 60%;
-		align-items: center;
+		flex-wrap: wrap;
+		width: 90% ;
 		text-align: center;
+		justify-content: space-between;
+		align-items: center;
+		align-content: center;
 	}
 }
 
