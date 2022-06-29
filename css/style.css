@@ -613,7 +613,7 @@ footer{
 	.section figure{
 		display: flex;
 		flex-direction: column;
-		margin-left: 20px;
+		margin-left: 0px;
 	}
 
 	.section figure img{
@@ -621,21 +621,20 @@ footer{
 	}
 
 
-	figure figcaption{
+	.figure figcaption{
 		width: 67vw;
 		margin-top: 20px;
 	}
 
 	.price{
 		text-align: left;
-		margin-left: 85px;
+		margin-left: 45px;
 	}
 
 
-	.shirts{
+	#shirts{
 		flex-direction: column;
 		width: 97%;
-		text-align: center;
 	}
 
 	.hoodies{
@@ -740,6 +739,7 @@ footer{
 		display: flex;
 		flex-direction: column;
 		margin-left: 20px;
+		width: 100%;
 	}
 
 	.section figure img{
@@ -754,7 +754,7 @@ footer{
 
 	.price{
 		text-align: left;
-		margin-left: 140px;
+		margin-left: 86px;
 	}
 
 
@@ -986,7 +986,7 @@ footer{
 		margin-top: 0;
 	}
 
-	.merch1{
+	/*.merch1{
 		grid-template-columns: 1;
 		grid-template-rows: 4;
 		grid-template-areas: 
@@ -994,7 +994,7 @@ footer{
 		"header1"
 		"main"
 		"footer";
-	}
+	}*/
 
 	/*.merch1 footer{
 		width: 100vw;
@@ -1021,7 +1021,7 @@ footer{
 
 	.price{
 		text-align: left;
-		margin-left: 140px;
+		/*margin-left: 140px;*/
 	}
 
 
