@@ -1142,7 +1142,7 @@ footer{
 @media (max-width: 1200px){
 
 
-	nav ul li{
+	/*nav ul li{
 		list-style: none;
 		display: flex;
 		justify-content: space-evenly;
@@ -1150,7 +1150,7 @@ footer{
 	}
 
 	.encabezado__img{
-		width: 50%;
-	}
+		width: 30%;
+	}*/
 
 }
