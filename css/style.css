@@ -1077,14 +1077,18 @@ footer{
 		padding: 1px 20px;
 	}*/
 
-	/*nav ul li{
-		list-style: none;
-		display: flex;
-		justify-content: space-evenly;
+	nav ul li{
+		width: 50px;
 	}
+
+
 	.navbar-brand{
-		width: 6000px;
-	}*/
+		width: 200%;
+	}
+
+	.encabezado__img{
+		width: 200px;
+	}
 
 
 	.home{
@@ -1122,9 +1126,9 @@ footer{
 		justify-content: center;
 	}
 
-	.header1{
-		/*width: 210%;*/
-		margin-top: 80px;
+	#header1{
+		width: 100%;
+		margin-top: 0;
 	}
 
 	.merch1{
@@ -1139,34 +1143,63 @@ footer{
 
 
 
-	figcaption{
-		width: 21vw;
+	.section figure{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 20px;
+		width: 40%;
+	}
+
+	.section figure img{
+		width: 100%;
+	}
+
+
+	figure figcaption{
+		width: 67vw;
 		margin-top: 20px;
 	}
 
-	/*figure p{
-		margin-left: 10px;
-	}*/
+	.price{
+		text-align: left;
+		margin-left: 200px;
+	}
 
 
 	.shirts{
-		align-items: center;
+		flex-wrap: wrap;
+		width: 90% ;
 		text-align: center;
+		justify-content: space-between;
+		align-items: center;
+		align-content: center;
 	}
 
 	.hoodies{
-		align-items: center;
+		flex-wrap: wrap;
+		width: 90% ;
 		text-align: center;
+		justify-content: space-between;
+		align-items: center;
+		align-content: center;
 	}
 
 	.vinilos-y-cds{
-		align-items: center;
+		flex-wrap: wrap;
+		width: 90% ;
 		text-align: center;
+		justify-content: space-between;
+		align-items: center;
+		align-content: center;
 	}	
 
 	.accesorios{
-		align-items: center;
+		flex-wrap: wrap;
+		width: 90% ;
 		text-align: center;
+		justify-content: space-between;
+		align-items: center;
+		align-content: center;
 	}
 
 }
