@@ -152,21 +152,47 @@ header img{
 }
 
 
+/* form subscribe */
+
+.input-group{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+
+#subs{
+	padding-left: 120px;
+}
+
+
+.btn-outline-red{
+	outline: darkred;
+	outline-color: darkred;
+	color: darkred;
+	background-color: darkred;
+}
+
 
 /* video */
 
-section h3{
+/*.h3video{
 	text-align: top;
 	padding: 5px 5px;
 	margin: auto 30px;
-}
+}*/
 
 .video{
-	/*width: 30px;*/
+	/*width: 30px;
 	display: grid;
 	grid-template-columns: 2;
 	grid-template-rows: 1;
-	grid-template-areas: "h3video ivideo" ;
+	grid-template-areas: "h3video ivideo" ;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 
@@ -304,11 +330,22 @@ section figure:hover{
 
 /* TABLE */
 
+#shows{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
 .table{
 	background-color: black;
 	color: white;
 	text-align: center;
-	margin: 10px auto;
+	/*margin: 10px auto;*/
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 	padding: 20px;
 	border: solid darkred 2px;
 	width: 80%;
@@ -365,7 +402,7 @@ td input:hover{
 }
 
 .input-group{
-	color: darkred;
+	color: white;
 	font-style: bold;
 	font-family: 'Cinzel Decorative', bold;
 	font-size: 1rem;
@@ -499,9 +536,10 @@ footer{
 
 @media (max-width: 320px){
 
-	nav{
+	/*nav{
 		display: flex;
 		flex-direction: column;
+		width: 100%;
 	}
 
 	nav ul li{
@@ -509,6 +547,10 @@ footer{
 		display: flex;
 		justify-content: space-evenly;
 		margin: 1px 10px;
+	}*/
+
+	.navbar-brand{
+		width: 200px;
 	}
 
 	.home{
@@ -520,6 +562,24 @@ footer{
 		"main"
 		"footer"
 	}
+
+	.table{
+		width: 25px;
+		font-size: 0.8rem;
+	}
+
+
+	.input-group h3{
+		text-align: center;
+		width: 100%;
+	}
+
+	#subs{
+		padding: 0;
+		margin: 0;
+		width: 1500px;
+	}
+
 
 	.video{
 		display: grid;

@@ -82,9 +82,9 @@
 
 
     <main class="main">
-      <section>
+      <section id="shows">
         <h1 class="upShows__h1--center">Upcoming Shows</h1>
-    <p class="comeLive__p--center">COME SEE US LIVE, IT'LL BE A GOOD TIME</p>
+    <p class="comeLive__p--center mt-2">COME SEE US LIVE, IT'LL BE A GOOD TIME</p>
     <br>
 
     <table class="table table-bordered">
@@ -127,20 +127,22 @@
 
       <!-- formulario -->
 
-      <div class="input-group">
-  <span class="input-group-text">Get the latest news directly into your email!</span>
-  <input type="email" class="form-control" id="inputEmail3">
-  <button type="submit" class="btn btn-outline-danger">Subscribe</button>
-      </div>
+      <section class="input-group mb-3">
+        <h3>Get the latest news directly into your email!</h3>
+        <div id="subs" class="input-group mt-3">
+          <input type="email" class="form-control" placeholder="Email" aria-label="Your Email" aria-describedby="button-addon2">
+          <button class="btn btn-outline-red" type="button" id="button-addon2">Subscribe</button>
+        </div>
+      </section>
 
 
       <!-- video -->
 
 
       <section class="video">
-          <h3 class="h3video">Check out our new Single and Music Video!
 
-          <div class="embed-responsive embed-responsive-16by9">
+          <h3 class="h3video">Check out our new Single and Music Video!
+          <div class="ratio ratio-16x9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=XAjq9x8shbk" allowfullscreen></iframe>
           </div>
 
