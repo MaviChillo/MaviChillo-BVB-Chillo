@@ -200,7 +200,7 @@ header img{
 
 /* figures y grid*/
 
-.merch1{
+/*.merch1{
 	height: 100vh;
 	width: 100vw;
 	display: grid;
@@ -212,7 +212,7 @@ header img{
 	"header1 header1"
 	"main main"
 	"footer footer";
-}
+}*/
 
 .section{
 	display: flex;
@@ -534,7 +534,7 @@ footer{
 
 
 
-@media (max-width: 320px){
+@media (min-width: 280px) and (max-width: 320px){
 
 	/*nav{
 		display: flex;
@@ -557,15 +557,6 @@ footer{
 		width: 200px;
 	}
 
-	.home{
-		grid-template-columns: 1fr;
-		grid-template-rows: repeat(4, auto);
-		grid-template-areas: 
-		"nav"
-		"header"
-		"main"
-		"footer"
-	}
 
 	.table{
 		font-size: 0.8rem;
@@ -594,12 +585,12 @@ footer{
 	}
 
 	#header1{
-		width: 120%;
+		width: 100%;
 		margin-top: 0;
 	}
 
 
-	.merch1{
+	/*.merch1{
 		grid-template-columns: 1;
 		grid-template-rows: 4;
 		grid-template-areas: 
@@ -607,57 +598,67 @@ footer{
 		"header1"
 		"main"
 		"footer";
-	}
+	}*/
 
 
 	.section figure{
 		display: flex;
 		flex-direction: column;
-		margin-left: 0px;
+		margin-left: 10px;
+		width: 90%;
 	}
 
 	.section figure img{
 		width: 250%;
+		margin: 0;
 	}
 
 
 	.figure figcaption{
-		width: 67vw;
 		margin-top: 20px;
 	}
 
 	.price{
 		text-align: left;
-		margin-left: 45px;
+		margin-left: 105px;
 	}
 
 
-	#shirts{
+	.shirts{
 		flex-direction: column;
-		width: 97%;
+		width: 90%;
+		text-align: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}
 
 	.hoodies{
 		flex-direction: column;
-		width: 97%;
+		width: 90%;
 		text-align: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}
 
 	.vinilos-y-cds{
 		flex-direction: column;
-		width: 97%;
+		width: 90%;
 		text-align: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}	
 
 	.accesorios{
 		flex-direction: column;
-		width: 97%;
+		width: 90%;
 		text-align: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}
 }
 
 
-@media (max-width: 480px){
+@media (min-width: 321px) and (max-width: 480px){
 
 	/*nav{
 		display: flex;
@@ -725,7 +726,7 @@ footer{
 		margin-top: 0;
 	}
 
-	.merch1{
+	/*.merch1{
 		grid-template-columns: 1;
 		grid-template-rows: 4;
 		grid-template-areas: 
@@ -734,7 +735,7 @@ footer{
 		"main"
 		"footer";
 	}
-
+*/
 	.section figure{
 		display: flex;
 		flex-direction: column;
@@ -748,13 +749,12 @@ footer{
 
 
 	figure figcaption{
-		width: 67vw;
 		margin-top: 20px;
 	}
 
 	.price{
 		text-align: left;
-		margin-left: 86px;
+		margin-left: 120px;
 	}
 
 
@@ -762,29 +762,37 @@ footer{
 		flex-direction: column;
 		width: 60%;
 		text-align: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}
 
 	.hoodies{
 		flex-direction: column;
 		width: 60%;
 		text-align: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}
 
 	.vinilos-y-cds{
 		flex-direction: column;
 		width: 60%;
 		text-align: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}	
 
 	.accesorios{
 		flex-direction: column;
 		width: 60%;
 		text-align: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}
 }
 
 
-@media (max-width: 600px){
+@media (min-width: 481px) and (max-width: 600px){
 	
 	/*nav{
 		display: flex;
@@ -852,7 +860,7 @@ footer{
 		margin-top: 0;
 	}
 
-	.merch1{
+	/*.merch1{
 		grid-template-columns: 1;
 		grid-template-rows: 4;
 		grid-template-areas: 
@@ -860,7 +868,7 @@ footer{
 		"header1"
 		"main"
 		"footer";
-	}
+	}*/
 
 	/*.merch1 footer{
 		width: 100vw;
@@ -871,6 +879,7 @@ footer{
 		display: flex;
 		flex-direction: column;
 		margin-left: 20px;
+		margin-bottom: 50px;
 	}
 
 	.section figure img{
@@ -878,14 +887,15 @@ footer{
 	}
 
 
-	figure figcaption{
-		width: 67vw;
+	.figure figcaption{
 		margin-top: 20px;
+		font-size: 1rem;
 	}
 
 	.price{
 		text-align: left;
-		margin-left: 180px;
+		margin-left: 145px;
+		font-size: 1rem;
 	}
 
 
@@ -893,31 +903,39 @@ footer{
 		flex-direction: column;
 		width: 60%;
 		text-align: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}
 
 	.hoodies{
 		flex-direction: column;
 		width: 60%;
 		text-align: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}
 
 	.vinilos-y-cds{
 		flex-direction: column;
 		width: 60%;
 		text-align: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}	
 
 	.accesorios{
 		flex-direction: column;
 		width: 60%;
 		text-align: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}
 
 
 }
 
 
-@media (max-width: 768px){
+@media (min-width: 601px) and (max-width: 768px){
 	
 	/*nav{
 		display: flex;
@@ -1006,7 +1024,6 @@ footer{
 		display: flex;
 		flex-wrap: wrap;
 		margin-left: 20px;
-		width: 40%;
 	}
 
 	.section figure img{
@@ -1014,57 +1031,67 @@ footer{
 	}
 
 
-	figure figcaption{
-		width: 67vw;
+	.figure figcaption{
+		width: 100%;
 		margin-top: 20px;
+		font-size: 1.7rem;
 	}
 
 	.price{
 		text-align: left;
-		/*margin-left: 140px;*/
+		margin-left: 255px;
+		font-size: 1.7rem;
 	}
 
 
 	.shirts{
 		flex-wrap: wrap;
-		width: 90% ;
+		width: 80% ;
 		text-align: center;
 		justify-content: space-between;
 		align-items: center;
 		align-content: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}
 
 	.hoodies{
 		flex-wrap: wrap;
-		width: 90% ;
+		width: 80% ;
 		text-align: center;
 		justify-content: space-between;
 		align-items: center;
 		align-content: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}
 
 	.vinilos-y-cds{
 		flex-wrap: wrap;
-		width: 90% ;
+		width: 80% ;
 		text-align: center;
 		justify-content: space-between;
 		align-items: center;
 		align-content: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}	
 
 	.accesorios{
 		flex-wrap: wrap;
-		width: 90% ;
+		width: 80% ;
 		text-align: center;
 		justify-content: space-between;
 		align-items: center;
 		align-content: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}
 }
 
 
 
-@media (max-width: 1024px){
+@media (min-width: 769px) and (max-width: 1024px){
 
 	
 	/*nav{
@@ -1155,57 +1182,66 @@ footer{
 	}
 
 
-	figure figcaption{
+	.figure figcaption{
 		width: 67vw;
 		margin-top: 20px;
+		font-size: 1rem;
 	}
 
 	.price{
 		text-align: left;
-		margin-left: 200px;
+		margin-left: 170px;
 	}
 
 
 	.shirts{
 		flex-wrap: wrap;
-		width: 90% ;
+		width: 80% ;
 		text-align: center;
 		justify-content: space-between;
 		align-items: center;
 		align-content: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}
 
 	.hoodies{
 		flex-wrap: wrap;
-		width: 90% ;
+		width: 80% ;
 		text-align: center;
 		justify-content: space-between;
 		align-items: center;
 		align-content: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}
 
 	.vinilos-y-cds{
 		flex-wrap: wrap;
-		width: 90% ;
+		width: 80% ;
 		text-align: center;
 		justify-content: space-between;
 		align-items: center;
 		align-content: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}	
 
 	.accesorios{
 		flex-wrap: wrap;
-		width: 90% ;
+		width: 80% ;
 		text-align: center;
 		justify-content: space-between;
 		align-items: center;
 		align-content: center;
+		margin: 20px auto;
+		margin-top: 50px;
 	}
 
 }
 
 
-@media (max-width: 1200px){
+@media (min-width: 1025px) and (max-width: 1200px){
 
 
 	/*nav ul li{
