@@ -1158,22 +1158,12 @@ footer{
 		margin-top: 0;
 	}
 
-	.merch1{
-		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: 4;
-		grid-template-areas: 
-		"nav1 nav1"
-		"header1 header1"
-		"main main"
-		"footer footer";
-	}
-
 
 
 	.section figure{
 		display: flex;
 		flex-wrap: wrap;
-		margin-left: 20px;
+		margin-left: 50px;
 		width: 40%;
 	}
 
