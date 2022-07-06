@@ -1,0 +1,22 @@
+// footer
+
+
+
+.footer{
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	grid-area: footer;
+	background-color: $black;
+	img{
+		max-height: 200px;
+		max-width: 200px;
+	}
+	a img{
+		max-height: 30px;
+		background-color: $black;
+	}
+}
+
