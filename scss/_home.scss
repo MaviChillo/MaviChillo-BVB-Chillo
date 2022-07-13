@@ -34,10 +34,7 @@
 			text-align: center;
 		}
 		td button{
-			//outline: $key;
-			//outline-color: $key;
 			color: $white;
-			//background-color: $key;
 			&:hover{
 				color: $key;
 				font-weight: 100;
@@ -60,7 +57,7 @@
 	color: $white;
 	font-style: bold;
 	font-family: 'Cinzel Decorative', bold;
-	font-size: 1rem;
+	font-size: map-get($map:$txtSize, $key: 'md');
 	width: 70%;
 	margin: 10% 15%;
 	#subs{

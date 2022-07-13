@@ -1,0 +1,44 @@
+// merch
+
+/* figures */
+
+.section{
+	display: flex;
+	figure{
+		&:hover{
+			transform: scale(1.17);
+			color: $key;
+			font-weight: 600;
+			cursor: pointer;
+		}
+		img{
+			height: 250px;
+			width: 250px;
+		}
+	}
+}
+
+ 
+
+.shirts{
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-flow: row wrap;
+	align-items: center;
+	width: 97%;
+	text-align: center;
+}
+
+.hoodies{
+	@extend .shirts
+}
+
+.vinilos-y-cds{
+	@extend .shirts
+}
+
+
+.accesorios{
+	@extend .shirts
+}
+

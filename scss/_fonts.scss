@@ -5,7 +5,11 @@ $mainFont: 'Cinzel', serif;
 $secondaryFont: 'Cinzel Decorative', cursive;
 
 //sizes
-$textSm: 0.8em;
-$textMd: 1em;
-$textLg: 1.6em;
-$textX1: 3em;
+
+$txtSize:(
+	'sm': 0.8rem,
+	'md': 1rem,
+	'md2': 1.3rem,
+	'lg': 1.7rem,
+	'x1': 3rem,
+	);
