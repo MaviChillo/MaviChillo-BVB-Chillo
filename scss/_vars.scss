@@ -23,3 +23,30 @@ $key: rgba(139, 0, 0, 1);
 	justify-content: $justify;
 	align-items: $align;
 }
+
+@mixin button-outline-variant(
+   $color,
+   $outline-color,
+   $color-hover: color-contrast($color),
+   $active-background: $color,
+   $active-border: $color,
+   $background-color: $background, ) {
+
+  color: $color;
+  border-color: $outline-color;
+  background-color: $background;
+
+  &:hover {
+    color: $color-hover;
+    background-color: $active-background;
+    border-color: $active-border;
+  }
+
+//  &:disabled,
+//  &.disabled {
+//    color: $color;
+  //  background-color: $background;
+ // }
+}
+
+$background: $gray;

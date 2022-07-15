@@ -36,9 +36,8 @@
 		td button{
 			color: $white;
 			&:hover{
-				color: $key;
-				font-weight: 100;
 				cursor: pointer;
+				color: $key;
 			}
 		}
 	}
@@ -63,10 +62,7 @@
 	#subs{
 		padding-left: 120px;
 		.btn-outline-red{
-			outline: $key;
-			outline-color: $key;
-			color: $white;
-			background-color: $key;
+			@include button-outline-variant ($white, $key, $white, $key, $key, $black);
 		}
 	}	
 }

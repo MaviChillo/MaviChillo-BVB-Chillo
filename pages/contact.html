@@ -22,64 +22,60 @@
 
 	<!-- nav begins -->
 
-	<nav>
-		<a href="../index.html">
-			<img src="../img/logos/logo but 1.png" alt="logo and name of the band black veil brides" class="encabezado__img">
-			<link rel="stylesheet" href="../css/style.css">
-		</a>
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+ 	<div class="container-fluid">
+    	<a class="navbar-brand w-25" href="../index.html">
+     		<img src="../img/logos/logo but 1.png" alt="logo and name of the band black veil brides" class="encabezado__img ">
+    	</a>
+    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      		<span class="navbar-toggler-icon"></span>
+   		 </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    	<ul class="navbar-nav">
+        	<li class="nav-item">
+        		<a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+        	</li>
+        	<li class="nav-item">
+        		<a class="nav-link active" href="about us.html">About</a>
+        	</li>
+        	<li class="nav-item">
+        		<a class="nav-link active" href="discography.html">Discography</a>
+        	</li>
+        	<li class="nav-item">
+        		<a class="nav-link active" href="merch.html">Merch</a>
+        	</li>
+        	<li class="nav-item">
+        		<a class="nav-link active" href="contact.html">Contact</a>
+        	</li>
+      	</ul>
+    </div>
+  </div>
+</nav>
 
-		<ul>
-			<li><a href="../index.html">Home</a></li>
-			<li><a href="about us.html">About Us</a></li>
-			<li><a href="discography.html">Discography</a></li>
-			<li><a href="merch.html">Merch</a></li>
-			<li><a href="contact.html">Contact Us</a></li>
-			
-		</ul>
-	</nav>
+    <!-- termina nav -->
 
-	<!-- nav ends -->
-
-	<br>
-	<br>
-	<br>
-	<br>
 	<h1>Contact Us</h1>
 
-	
 
 	<!-- form -->
 
-	<section class="form">
-
-		<form action="send.php">Name</form>
-		<label for="name"></label>
-		<input type="text" id="name" placeholder="ej. Jessica">
-
-		<br>
-		<br>
-
-		<label for="email">Email</label>
-		<br>
-		<input type="email" id="email" placeholder="ej. jessica9@gmail.com">
-
-		<br>
-		<br>
-
-		<label for="message">How can we help?</label>
-		<br>
-		<textarea name="" id="message" cols="30" rows="12"></textarea>
-		<br>
-		<input type="submit" value="Submit" class="submit">
+	<section>
+		
+		<form class="form" action="send.php">
+			<label for="name">Name</label>
+			<input type="text" id="name" placeholder="ej. Jessica">
+		
+			<label class="label1" for="email">Email</label>
+			<input type="email" id="email" placeholder="ej. jessica9@gmail.com">
+	
+			<label class="label1" for="message">How can we help?</label>
+			<textarea name="" id="message" cols="30" rows="12"></textarea>
+			<button class="btn btn-outline-red" type="button">Submit</button>
+		</form>
 
 	</section>
 
 
-
-	<br>
-	<br>
-	<br>
-	<br>
 
 	<!-- footer -->
 
