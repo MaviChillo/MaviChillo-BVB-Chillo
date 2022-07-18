@@ -42,11 +42,13 @@ $key: rgba(139, 0, 0, 1);
     border-color: $active-border;
   }
 
-//  &:disabled,
-//  &.disabled {
-//    color: $color;
-  //  background-color: $background;
- // }
 }
 
 $background: $gray;
+
+
+/* disclaimer */
+
+.disclaimer{
+  display: none;
+}
