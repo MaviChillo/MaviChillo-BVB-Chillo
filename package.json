@@ -1,7 +1,7 @@
 {
-  "name": "repo_1",
+  "name": "Proyecto_Final_BVB",
   "version": "1.0.0",
-  "description":"",
+  "description":"Este proyecto se trata de un sitio web de una banda de rock llamada Black Veil Brides. En este sitio se encuentran páginas que contiene informacion acerca de la banda: como discografia, nombres de los integrantes y fechas de tour; merchandise de la banda: como remeras, buzos, discos y accesorios; y una página de contacto por si el usuario tiene inconventientes con el sitio web o la merchandise que ofrece el sitio.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", 
