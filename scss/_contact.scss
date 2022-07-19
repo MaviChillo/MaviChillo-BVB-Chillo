@@ -10,7 +10,6 @@
 	}
 	button{
 		margin-top: 20px;
-		@include button-outline-variant ($white, $key, $white, $key, $key, $black);;
+		@include button-outline-variant ($white, $key, $white, $key, $key, $black);
 	}
-	
 }

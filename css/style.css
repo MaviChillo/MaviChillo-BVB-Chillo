@@ -107,7 +107,7 @@ h1, h2, h3 {
     .input-group #subs .btn-outline-red {
       color: #FFFFFF;
       border-color: darkred;
-      background-color: #191919; }
+      background-color: transparent; }
       .input-group #subs .btn-outline-red:hover {
         color: #FFFFFF;
         background-color: darkred;
@@ -152,6 +152,11 @@ h1, h2, h3 {
 /* figures */
 .section {
   display: flex; }
+  .section figure a {
+    text-decoration: none;
+    color: #FFFFFF; }
+    .section figure a:hover {
+      color: darkred; }
   .section figure:hover {
     transform: scale(1.17);
     color: darkred;
@@ -183,11 +188,38 @@ h1, h2, h3 {
     margin-top: 20px;
     color: #FFFFFF;
     border-color: darkred;
-    background-color: #191919; }
+    background-color: transparent; }
     .form button:hover {
       color: #FFFFFF;
       background-color: darkred;
       border-color: darkred; }
+
+/* error 404 */
+.error404 {
+  background-image: url(../img/bg/bg-band2.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .error404 section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .error404 section h2 {
+      font-size: 1.7rem; }
+    .error404 section button {
+      margin-top: 20px;
+      color: #FFFFFF;
+      border-color: darkred;
+      background-color: transparent; }
+      .error404 section button:hover {
+        color: #FFFFFF;
+        background-color: darkred;
+        border-color: darkred; }
 
 /* footer */
 .footer {
