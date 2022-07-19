@@ -80,8 +80,7 @@
 				margin-top: 20px;
 			}
 			.price{
-				text-align: left;
-				margin-left: 110px;
+				text-align: center;
 			}
 		}
 	}
@@ -181,8 +180,7 @@
 				margin-top: 20px;
 			}
 			.price{
-				text-align: left;
-				margin-left: 120px;
+				text-align: center;
 			}
 		}
 	}
@@ -262,8 +260,7 @@
 				font-size: map-get($map:$txtSize, $key: 'md');
 			}
 			.price{
-				text-align: left;
-				margin-left: 145px;
+				text-align: center;
 				font-size: map-get($map:$txtSize, $key: 'md');
 			}
 		}
@@ -443,7 +440,7 @@
 			}
 			.price{
 				text-align: left;
-				margin-left: 170px;
+				margin-left: 140px;
 			}
 		}
 	}	
