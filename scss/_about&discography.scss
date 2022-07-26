@@ -30,7 +30,7 @@
 	.header7{
 		width: 50%;
 		margin: 20px;
-		margin-right: 50px;
+		margin-left: 50px;
 	}
 }
 
@@ -38,15 +38,24 @@
 	margin: 20px;
 }
 
+
+
 /* discography */
 
 .ul2{
 	margin: 20px;
 	.li1{
+		img{
+			margin-top: 10px;
+			height: 200px;
+			}
 		margin-bottom: 30px;
 		a{
 			text-decoration: none;
 			color: $white;
+			img{
+				height: 200px;
+			}
 			&:hover{
 				cursor: pointer;
 				color: $key;

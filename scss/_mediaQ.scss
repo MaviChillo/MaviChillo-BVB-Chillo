@@ -57,6 +57,34 @@
 		}
 	}
 
+
+	/* about */
+
+	.members{
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	ul{
+		margin-top: 0;
+		h2{
+			margin-left: 0;
+		}
+		li{
+			width: 90%;
+			margin-top: 20px;
+		}
+	}
+	.header7{
+		width: 90%;
+		margin: 20px;
+		margin-left: 20px;
+	}
+}
+
+
 	/* merch */
 
 	#header1{
@@ -94,10 +122,34 @@
 		margin-top: 50px;
  	}
 
+ 	/* contact */
 
- 	.textArea{
- 		width: 100%;
- 	}
+ 	.sectionForm{
+		h2{
+			font-size: map-get($map:$txtSize, $key: 'md');
+			width: 90%;
+		}
+		.form{
+			margin-left: 30px;
+			.email{
+				margin-top: 30px;
+			}
+			.label1{
+				margin-top: 30px;
+				width: 90%;
+			}
+			.textArea{
+ 				width: 90%;
+ 			}
+			button{
+				margin-top: 20px;
+				@include button-outline-variant ($white, $key, $white, $key, $key, $black);
+			}
+			p{
+				margin-top: 30px;
+			}
+		}
+	}
 
 
 }
@@ -159,6 +211,32 @@
 		}
 	}
 
+	/* about */
+
+	.members{
+		display: flex;
+		flex-direction: row;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 20px;
+		ul{
+			margin-top: 0;
+			h2{
+				margin-left: 0;
+			}
+			li{
+				width: 90%;
+				margin-top: 20px;
+			}
+		}
+		.header7{
+			width: 90%;
+			margin: 20px;
+			margin-left: 20px;
+		}
+	}
+
 	/* merch */
 
 	#header1{
@@ -194,6 +272,35 @@
 		margin-top: 50px;
 	}
 
+
+	/* contact */
+
+ 	.sectionForm{
+		h2{
+			font-size: map-get($map:$txtSize, $key: 'md');
+			width: 90%;
+		}
+		.form{
+			margin-left: 30px;
+			.email{
+				margin-top: 30px;
+			}
+			.label1{
+				margin-top: 30px;
+				width: 90%;
+			}
+			.textArea{
+ 				width: 90%;
+ 			}
+			button{
+				margin-top: 20px;
+				@include button-outline-variant ($white, $key, $white, $key, $key, $black);
+			}
+			p{
+				margin-top: 30px;
+			}
+		}
+	}
 }
 
 
@@ -238,6 +345,33 @@
 	}
 
 
+	/* about */
+
+	.members{
+		display: flex;
+		flex-direction: row;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 20px;
+		ul{
+			margin-top: 0;
+			h2{
+				margin-left: 0;
+			}
+			li{
+				width: 90%;
+				margin-top: 20px;
+			}
+		}
+		.header7{
+			width: 90%;
+			margin: 20px;
+			margin-left: 20px;
+		}
+	}
+
+
 	/* merch */
 
 	#header1{
@@ -274,6 +408,37 @@
 		text-align: center;
 		margin: 20px auto;
 		margin-top: 50px;
+	}
+
+
+	/* contact */
+
+ 	.sectionForm{
+		h2{
+			font-size: map-get($map:$txtSize, $key: 'md');
+			width: 90%;
+		}
+		.form{
+			margin-left: 30px;
+			.email{
+				margin-top: 30px;
+			}
+			.label1{
+				margin-top: 30px;
+				width: 90%;
+			}
+			.textArea{
+ 				width: 90%;
+ 			}
+			button{
+				margin-top: 20px;
+				@include button-outline-variant ($white, $key, $white, $key, $key, $black);
+			}
+			p{
+				margin-top: 30px;
+				margin-right: 20px;
+			}
+		}
 	}
 
 
@@ -321,6 +486,33 @@
 	}
 
 
+	/* about */
+
+	.members{
+		display: flex;
+		flex-direction: row;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 20px;
+		ul{
+			margin-top: 0;
+			h2{
+				margin-left: 0;
+			}
+			li{
+				width: 90%;
+				margin-top: 20px;
+			}
+		}
+		.header7{
+			width: 90%;
+			margin: 20px;
+			margin-left: 20px;
+		}
+	}
+
+
 	/* merch */
 
 	#header1{
@@ -361,6 +553,36 @@
 		align-content: center;
 		margin: 20px auto;
 		margin-top: 50px;
+	}
+
+	/* contact */
+
+ 	.sectionForm{
+		h2{
+			font-size: map-get($map:$txtSize, $key: 'md');
+			width: 90%;
+		}
+		.form{
+			margin-left: 30px;
+			.email{
+				margin-top: 30px;
+			}
+			.label1{
+				margin-top: 30px;
+				width: 90%;
+			}
+			.textArea{
+ 				width: 90%;
+ 			}
+			button{
+				margin-top: 20px;
+				@include button-outline-variant ($white, $key, $white, $key, $key, $black);
+			}
+			p{
+				margin-top: 30px;
+				margin-right: 20px;
+			}
+		}
 	}
 
 }
@@ -415,6 +637,33 @@
 	}
 
 
+	/* about */
+
+	.members{
+		display: flex;
+		flex-direction: row;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 20px;
+		ul{
+			margin-top: 0;
+			h2{
+				margin-left: 0;
+			}
+			li{
+				width: 90%;
+				margin-top: 20px;
+			}
+		}
+		.header7{
+			width: 90%;
+			margin: 20px;
+			margin-left: 20px;
+		}
+	}
+
+
 	/* merch */
 
 	#header1{
@@ -455,6 +704,16 @@
 		align-content: center;
 		margin: 20px auto;
 		margin-top: 50px;
+	}
+
+
+	/* contact */
+
+ 	.sectionForm{
+		p{
+			margin-top: 30px;
+			margin-right: 30px;
+		}
 	}
 
 
