@@ -1,5 +1,19 @@
 // merch
 
+.cart{
+	display: flex;
+	justify-content: flex-end;
+	margin: 10px;
+	width: 100%;
+	a{
+		width: 5%;
+		.img{
+			width: 50%;
+		}
+	}
+}
+
+
 /* figures */
 
 .section{

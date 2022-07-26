@@ -126,8 +126,30 @@ h1, h2, h3 {
     margin: 5% auto; }
 
 /* about */
+.header4 {
+  width: 100%; }
+
 .about {
   margin: 30px; }
+
+.members {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; }
+  .members ul {
+    margin-top: 0; }
+    .members ul h2 {
+      margin-left: 0; }
+    .members ul li {
+      width: 90%;
+      margin-top: 20px; }
+  .members .header7 {
+    width: 50%;
+    margin: 20px;
+    margin-right: 50px; }
 
 .ul1 {
   margin: 20px; }
@@ -148,6 +170,16 @@ h1, h2, h3 {
     .ul2 .li1 ol {
       margin-top: 30px;
       margin-bottom: 30px; }
+
+.cart {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+  width: 100%; }
+  .cart a {
+    width: 5%; }
+    .cart a .img {
+      width: 50%; }
 
 /* figures */
 .section {
