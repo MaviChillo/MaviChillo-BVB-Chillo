@@ -32,8 +32,8 @@ nav {
         animation-name: textAlpha;
         animation-duration: 0.5s; }
         nav ul li a:hover {
-          color: darkred;
-          font-weight: 1000; }
+          font-weight: 1000;
+          cursor: pointer; }
 
 @keyframes textAlpha {
   from {

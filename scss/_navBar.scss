@@ -29,8 +29,8 @@ nav{
 				animation-name: textAlpha;
 				animation-duration: 0.5s;
 				&:hover{
-					color: $key;
 					font-weight: 1000;
+					cursor: pointer;
 				}
 			}
 		}
