@@ -312,10 +312,10 @@ h1, h2, h3 {
     margin: 0;
     width: 200%; }
     .input-group #subs .form-control {
-      width: 50%; }
+      width: 100%; }
     .input-group #subs .btn {
       padding: auto 0;
-      width: 50%; }
+      width: 100%; }
   .video h3 {
     text-align: center;
     padding: 0;
